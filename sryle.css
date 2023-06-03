@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+header {
+  background-color: #0077B5;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Content styles */
+#content {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.connections, .messages {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.connections h3, .messages h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.connections ul, .messages ul {
+  list-style-type: none;
+}
+
+.connections ul li, .messages ul li {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
